@@ -1,0 +1,10 @@
+TEST-TOUCH-1:
+  location: world, 6.900, 62.300, 13.460
+  lines:
+  - '&AKliknij Tutaj'
+  - '&B&LDOLACZ TERAZ!'
+TEST-TOUCH-2:
+  location: world, 6.900, 62.300, 18.518
+  lines:
+  - '&AKliknij Tutaj'
+  - '&B&LDOLACZ TERAZ!'

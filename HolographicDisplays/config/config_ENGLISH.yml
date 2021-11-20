@@ -1,0 +1,34 @@
+# .
+# .  Read the tutorial at: http://dev.bukkit.org/bukkit-plugins/holographic-displays/
+# .
+# .  Plugin created by filoghost.
+# .
+space-between-lines: 0.02
+quick-edit-commands: true
+images:
+  symbol: '[x]'
+  transparency:
+    space: ' [|] '
+    color: '&7'
+bungee:
+  refresh-seconds: 3
+  use-RedisBungee: false
+  pinger:
+    enable: true
+    timeout: 500
+    offline-motd: '&8» &cOffline, couldn''t get the MOTD.'
+    status:
+      online: '&aOnline'
+      offline: '&cOffline'
+    motd-remove-leading-trailing-spaces: true
+    servers:
+    - 'hub: 127.0.0.1:25565'
+    - 'PRISON: localhost'
+    - 'SKYBLOCK: localhost'
+    - 'SKYWARS: hypixel.net:25565'
+    - 'BEDWARS: localhost'
+time:
+  format: H:mm
+  zone: GMT+1
+update-notification: true
+debug: false
