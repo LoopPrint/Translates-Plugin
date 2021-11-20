@@ -1,0 +1,126 @@
+Messages:
+  prefix: '&6&lKITS &8» '
+  noPermissions: '&8» &cNie masz uprawnien do tego!'
+  commandCreateError: '&8» &cPoprawne uzycie &f/kit create <name>'
+  commandDeleteError: '&8» &cPoprawne uzycie &f/kit delete <name>'
+  commandClaimError: '&8» &cPoprawne uzycie &f/kit claim <kit>'
+  commandGiveError: '&8» &cPoprawne uzycie &f/kit give <kit> <player>'
+  commandEditError: '&8» &cPoprawne uzycie &f/kit edit <kit>'
+  commandPreviewError: '&8» &cPoprawne uzycie &f/kit preview <kit>'
+  commandOpenError: '&8» &cPoprawne uzycie &f/kit open <player> <page>'
+  kitAlreadyExists: '&8» &cZestaw &f%name% &cjuz istnieje!'
+  kitDoesNotExists: '&8» &cZestaw &7%name% &cnie istnieje!'
+  inventoryEmpty: '&8» &cPotrzebujesz 1 przedmiotu do utworzenia zestawu.'
+  kitCreated: '&8» &7Zestaw &f%name% &7zostal &6utworzony&7.'
+  kitRemoved: '&8» &7Zestaw &f%name% &7zostal &cusuniety&7.'
+  inventoryName: '&7Zestawy'
+  kitReceived: '&8» &7Zestaw &f%name% &7zostal &aodebrany&7.'
+  configReload: '&8» &7Plugin &6&lPlayerKits &7zostal przeladowany!'
+  seconds: s
+  minutes: m
+  hours: h
+  days: d
+  cooldownPlaceholderReady: '&8» &a&lGotowe!'
+  cooldownError: '&8» &cZestaw mozesz odebrac za &4%time% &cczasu.'
+  kitNoPermissions: '&8» &cNie masz uprawnien do tego!'
+  kitInCooldownLore:
+  - '&7Zestaw mozesz odebrac za &4%time% &cczasu.'
+  commandList: '&7Lista zestawow'
+  commandListKit: "&6%number% &8\xc2\xbb &a%kit%"
+  commandListKitNoPermissions: "&6%number% &8\xc2\xbb &c%kit% &7(brak permisji)"
+  commandListKitInCooldown: "&6%number% &8\xc2\xbb &c%kit% &7(czas: &f%time%&7)"
+  commandListKitOneTime: "&6%number% &8\xc2\xbb &c%kit% &7(juz odebrane&7)"
+  noSpaceError: '&8» &cPosiadasz za malo miejsca w ekwipunku!'
+  materialNameError: '&8» &cWystapil blad w konfiguracji. Material: &f&l%material%
+    &cnie dotyczy twojej wersji gry.'
+  oneTimeError: '&8» &cNie mozesz odebrac tego zestawu!'
+  kitOneTimeLore:
+  - '&7Nie mozesz odebrac tego zestawu!'
+  previewInventoryName: '&e♛ &aPodglad &e♛'
+  backItemName: '&e♛ &cWroc &e♛'
+  playerNotOnline: '&8» &7Gracz &f%player% &7jest &coffline&7.'
+  kitGive: '&8» &aZestaw &f%kit% &azostal nadany dla &f%player%&a!'
+  noMoneyError: '&8» &cNie stac cie na zakup tego zestawu! &8(&a$&c%current_money%&7/&a$&c%required_money%&8)'
+  moneyInventoryName: '&e♛ &7Zakup Zestaw &e♛'
+  moneyInventoryYes: '&a&lTAK'
+  moneyInventoryNo: '&c&lNIE'
+  moneyInventoryConfirmationName: '&e♛ &aJestes pewien? &e♛'
+  moneyInventoryConfirmationLore:
+  - '&7Cena zakupu &f$%price%'
+  kitInventoryOpen: '&8» &7Otwieranie zestawu &f%player%&7. (ekwipunek)'
+  errorPage: '&8» &cNapisz poprawna strone.'
+  commandResetError: '&8» &cPoprawne uzycie &f/kit reset <kit> <player>'
+  kitResetCorrect: '&8» &7Zestaw &f%kit% &7zostal &6resetowany &7dla &f%player%&7!'
+  kitResetFail: '&8» &cNie mozesz resetowac zestawu &f%kit% &cdla &f%player%&c!'
+  noPreviewError: '&8» &cTen zestaw nic nie posiada, nie mozesz go zobaczyc.'
+  cantPreviewError: '&8» &cTen zestaw nic nie posiada, nie mozesz go zobaczyc.'
+Config:
+  inventorySize: 45
+  previewInventorySize: 54
+  preview_inventory_back_item_slot: 45
+  kit_preview: true
+  kit_preview_back_item: true
+  hide_kits_with_permissions: false
+  close_inventory_on_claim: false
+  drop_items_if_full_inventory: false
+  commands_before_items: false
+  preview_inventory_requires_permission: false
+  kit_error_sound: BLOCK_NOTE_BLOCK_PLING;10;0.1
+  kit_claim_sound: ENTITY_PLAYER_LEVELUP;10;1.5
+  kit_page_sound: BLOCK_LAVA_POP;10;1
+  update_notify: true
+  player_data_save_time: 300
+  mysql_database:
+    enabled: false
+    host: localhost
+    port: 3306
+    username: root
+    password: root
+    database: database
+  Inventory:
+    '0':
+      id: STAINED_GLASS_PANE:15
+      name: ' '
+    '1':
+      id: STAINED_GLASS_PANE:3
+      name: ' '
+    '7':
+      id: STAINED_GLASS_PANE:3
+      name: ' '
+    '8':
+      id: STAINED_GLASS_PANE:15
+      name: ' '
+    '9':
+      id: STAINED_GLASS_PANE:3
+      name: ' '
+    '17':
+      id: STAINED_GLASS_PANE:3
+      name: ' '
+    '27':
+      id: STAINED_GLASS_PANE:3
+      name: ' '
+    '35':
+      id: STAINED_GLASS_PANE:3
+      name: ' '
+    '36':
+      id: STAINED_GLASS_PANE:15
+      name: ' '
+    '37':
+      id: STAINED_GLASS_PANE:3
+      name: ' '
+    '43':
+      id: STAINED_GLASS_PANE:3
+      name: ' '
+    '44':
+      id: STAINED_GLASS_PANE:15
+      name: ' '
+    '18':
+      id: SKULL_ITEM:3
+      name: '&e♛ &6Poprzednia Strona &e♛'
+      skulldata: 2391d533-ab09-434d-9980-adafde4057a3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==
+      type: previous_page
+    '26':
+      id: SKULL_ITEM:3
+      name: '&e♛ &6Nastepna Strona &e♛'
+      skulldata: d513d666-0992-42c7-9aa6-e518a83e0b38;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19
+      type: next_page
