@@ -1,0 +1,18 @@
+#######################                       #######################
+#      _____                                                        #
+#     /    /  /\     /                              _   _   _       #
+#    /___ /  /  \   / |\_/|  _  ___ |\       \   / |_|  _| | |      #
+#   /    /  /    \ /  |   | | |  |  | |  -->  \_/.  _|.|_. |_|      #
+#  /    /  /      /   |   | |_|  |  |/                              #
+#                                                                   #
+####################          Help.yml           ####################
+
+#
+#Manage the /anm help command here!
+#
+
+#First line you see when you type /anm help command
+FirstLine: "&8» &6/anm reload &7- Przeladowuje plugin."
+
+#Second line you see when you type /anm help command
+SecondLine: "&8» &6/anm help &7- Wyswietla ta informacje."
