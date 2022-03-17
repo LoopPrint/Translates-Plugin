@@ -1,0 +1,37 @@
+# +----------------------------------------------------------------------------------------------+
+# |                                                                                              |
+# |                                           Combat Plus                                        |
+# |                                                                                              |
+# |                               Discord: https://discord.gg/m7j2Y9H                            |
+# |                                                                                              |
+# |                                           Author: Nik                                        |
+# |                                                                                              |
+# +----------------------------------------------------------------------------------------------+
+
+prefix: '&4&lANTYLOGOUT &8» '
+no_perm: '&cNie masz uprawnien do tego!'
+reloaded: '&7Plugin &6&lCombatPlus &7zostal przeladowany!'
+update_reminder: '&6Jest nowa wersja pluginu! Twoja wersja &a%current%&6 zaktualizuj do &a%new%'
+golden_apple_cooldown: '&cNie mozesz zjesc zlotego jablka jeszcze przez &4%seconds% &csekund!'
+golden_apple_cooldown_actionbar: '&6Nastepne zlotego jablko zjesz za &a%seconds% &6sekund!'
+enchanted_golden_apple_cooldown: '&cNie mozesz zjesc zlotego jablka jeszcze przez &4%seconds% &csekund!'
+enchanted_golden_apple_cooldown_actionbar: '&6Nastepne zlotego jablko zjesz za &a%seconds% &6sekund!'
+enderpearl_cooldown: '&cNie mozesz uzyc ender-perel jeszcze przez &4%seconds% &csekund!'
+enderpearl_cooldown_actionbar: '&6Nastepna ender-perle uzyjesz za &a%seconds% &6sekund!'
+cannot_craft_this: '&cNie mozesz stworzyc tego przedmiotu!'
+combatlog_tagged: '&fJestes podcza walki, nie logaj!'
+combatlog_untagged: '&fNie jestes juz podczas walki!'
+combatlog_actionbar: ''
+combatlog_broadcast: '&f%player% wylogowal sie podczas walki!'
+combatlog_item_drop: '&cNie mozesz wyrzucac itemow podczas walki!'
+combatlog_teleport: '&cNie mozesz sie teleportowac podczas walki!'
+combatlog_command: '&cNie mozesz uzyc tej komendy podczas walki!'
+gui_main: '&c&lCombatPlus Menu'
+gui_plugin: '&c&lUstawienia Pluginu'
+gui_combat: '&c&lUstawienia Walki'
+gui_general: '&c&lUstawienia Ogolne'
+console_update_not_found: '&6&lNie znaleziono aktualizacji, uzywasz najnowszej wersji pluginu..'
+console_update_disabled: '&f&lSprawdzanie aktualizacji jest wylaczone, Pomijam.'
+console_commands: '&c&lNie mozesz uzyc tej komendy z pozycji konsoli! :('
+console_unsupported_version: '&c&lUWAGA! Uzywasz nie wspieranej wersji gry dla pluginu!'
+console_unsupported_sweep_attack: '&c&lSweep Attacks nie moze zostac wylaczone w minecraft, pomijam.'
