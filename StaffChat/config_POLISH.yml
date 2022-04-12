@@ -1,0 +1,18 @@
+settings:
+  character: '@'
+  format: '&c&lACHAT &8» &f{NAME}: &a{MESSAGE}'
+  replaceplaceholdersinmessage: true
+  sendmessagestoallservers: true
+messages:
+  prefix: '&4&lADMINCHAT &8» '
+  nopermission: '&cNie masz uprawnien do tego!'
+  playeronly: '&cNie mozesz uzyc tej komendy z pozycji konsoli!'
+  reloaded: '&7Plugin &6&lStaffChat &7zostal przeladowany!'
+  toggled: '&7Chat administracji zostal %s'
+  onstring: '&awlaczony&7.'
+  offstring: '&cwylaczony&7.'
+discordsrv:
+  enable: false
+  channel: staffchat
+  minecraft-to-discord-format: '{NAME} » {MESSAGE}'
+  discord-to-minecraft-format: '&9(Discord) {NAME}: {MESSAGE}'
